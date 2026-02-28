@@ -20,7 +20,7 @@ My work focuses on multi-agent architectures, workflow orchestration, and intell
 
 | Area                       | Skills                                                                                                    |
 |---------------------------|------------------------------------------------------------------------------------------------------------|
-| **Languages & Foundations** | Python, TypeScript, JavaScript, SQL, HTML, CSS                                                           |
+| **Languages & Foundations** | Python, TypeScript, JavaScript, SQL, HTML, CSS, Solidity                                                           |
 | **LLM Systems & Orchestration** | Multi-agent design, role isolation, adversarial evaluation, blind scoring, long-context synthesis, structured outputs |
 | **Data & Analytics**      | Pandas, NumPy, SQLite, variance analysis, statistical aggregation, scoring systems, auditability          |
 | **System & Workflow Architecture** | Process Unity, Jira, NetSuite, Salesforce, Snowflake, Looker, Databricks, n8n, agent pipelines, state management, status tracking, database schema design, persistence, automation workflows |
