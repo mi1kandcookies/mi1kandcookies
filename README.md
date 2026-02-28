@@ -18,15 +18,14 @@ My work focuses on multi-agent architectures, workflow orchestration, and intell
 
 ## Core Skills
 
-| Area                       | Skills                                                                                                    |
-|---------------------------|------------------------------------------------------------------------------------------------------------|
-| **Languages & Foundations** | Python, TypeScript, JavaScript, SQL, HTML, CSS, Solidity                                                           |
-| **LLM Systems & Orchestration** | Multi-agent design, role isolation, adversarial evaluation, blind scoring, long-context synthesis, structured outputs |
-| **Data & Analytics**      | Pandas, NumPy, SQLite, variance analysis, statistical aggregation, scoring systems, auditability          |
-| **System & Workflow Architecture** | Process Unity, Jira, NetSuite, Salesforce, Snowflake, Looker, Databricks, n8n, agent pipelines, state management, status tracking, database schema design, persistence, automation workflows |
-| **Full-Stack & Infrastructure** | React, Next.js, Vite, Flask, PostgreSQL, REST APIs, polling-based architectures, Docker, Git         |
-
----
+| Area | Skills |
+|------|--------|
+| Languages & Foundations | Python, TypeScript, JavaScript, SQL, HTML, CSS, Solidity |
+| Blockchain / Web3 | EVM smart contracts, Foundry, Hardhat, ethers.js, viem, wagmi, EIP-712 typed data signing, ERC-20/ERC-721/ERC-4626 standards, on-chain risk controls, wallet integration, testnet deployment workflows |
+| LLM Systems & Orchestration | Multi-agent design, role isolation, adversarial evaluation, blind scoring, long-context synthesis, structured outputs |
+| Data & Analytics | Pandas, NumPy, SQLite, variance analysis, statistical aggregation, scoring systems, auditability |
+| System & Workflow Architecture | Process Unity, Jira, NetSuite, Salesforce, Snowflake, Looker, Databricks, n8n, agent pipelines, state management, status tracking, database schema design, persistence, automation workflows |
+| Full-Stack & Infrastructure | React, Next.js, Vite, Flask, PostgreSQL, REST APIs, polling-based architectures, Docker, Git |
 
 ## Selected Projects
 
