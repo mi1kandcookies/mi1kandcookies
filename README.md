@@ -44,8 +44,22 @@ Built and documented a correlation-aware on-chain structured products / combo pr
 
 **Impact:** Delivered a transparent, auditable protocol design that reduces correlated exposure risk through mathematically grounded pricing and contract-level guardrails.
 
+### Monad VWAP Execution Engine 
+**TypeScript, Solidity, Next.js, ethers.js, Hardhat · Feb 2026**
+
+Built a full-stack algorithmic trading execution system on Monad Testnet that demonstrates parallel EVM throughput using VWAP-style order slicing and automated off-chain execution.
+
+- Designed and implemented `VWAPDemo.sol` for on-chain order creation, time-based slice execution, and O(1) execution tracking via bitmasking
+- Built keeper and flow bots (TypeScript + ethers.js) to automate slice execution and simulate realistic market activity
+- Developed a real-time Next.js + wagmi frontend for creating VWAP orders, monitoring execution progress, and visualizing live order state
+- Applied production-grade contract patterns (ReentrancyGuard, SafeERC20, CEI ordering, custom errors, event-driven architecture)
+- Optimized contract storage and execution flow for high-frequency parallelizable order processing on Monad’s low-latency testnet
+- Structured documentation and demo workflows for deployment, setup, and judge-ready walkthroughs
+
+**Impact:** Showcased how parallel EVM execution can support multi-order algorithmic trading with higher throughput and lower expected slippage versus sequential execution models.
+
 ### AI-Native Hedge Fund Research System  
-**Python · Feb 2026**
+**Python · Jan 2026**
 
 Multi-agent investment research platform built using LangGraph to orchestrate a structured, multi-stage pipeline for generating, evaluating, and adjudicating investment theses.
 
@@ -61,7 +75,7 @@ Different LLMs are used for generation, evaluation, and arbitration roles, inclu
 ---
 
 ### Agent Monitoring Dashboard  
-**React, JavaScript · Feb 2026**
+**React, JavaScript · Dec 2026**
 
 Real-time monitoring dashboard for observing multi-agent research workflows.
 
