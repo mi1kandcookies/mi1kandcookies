@@ -31,8 +31,7 @@ My work focuses on multi-agent architectures, workflow orchestration, and intell
 ## Selected Projects
 
 ### Laytus Protocol (ETHDenver 2026)
-**Python · Feb 2026**
-**Solidity, Python, FastAPI, React, TypeScript, Docker, PostgreSQL, Redis**
+**Python Solidity, Python, FastAPI, React, TypeScript, Docker, PostgreSQL, Redis · Feb 2026**
 
 Built and documented a correlation-aware on-chain structured products / combo pricing protocol with a full-stack architecture spanning smart contracts, backend microservices, and frontend execution flows.
 
