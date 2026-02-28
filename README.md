@@ -30,6 +30,20 @@ My work focuses on multi-agent architectures, workflow orchestration, and intell
 
 ## Selected Projects
 
+### Laytus Protocol (ETHDenver 2026)
+**Solidity, Python, FastAPI, React, TypeScript, Docker, PostgreSQL, Redis**
+
+Built and documented a correlation-aware on-chain structured products / combo pricing protocol with a full-stack architecture spanning smart contracts, backend microservices, and frontend execution flows.
+
+- Designed a **risk-aware pricing pipeline** combining multi-layer correlation detection with **Gaussian copula** joint probability modeling and dynamic vig logic
+- Implemented and integrated **EIP-712 signed certificates** bridging off-chain pricing to on-chain execution
+- Engineered Solidity contract system with vault + escrow custody model, fee controller, position NFTs, and admin guardian controls
+- Enforced **10 on-chain risk checks** (caps, solvency, concentration, replay protection, signature validity, expiry) to protect LP capital
+- Built and mapped backend service architecture (gateway, quote, correlation, settlement, execution, risk monitor, worker layer) with Dockerized local infra
+- Produced an extensive technical documentation suite and whitepaper covering architecture, math, contract logic, deployment state, and migration planning
+
+**Impact:** Delivered a transparent, auditable protocol design that reduces correlated exposure risk through mathematically grounded pricing and contract-level guardrails.
+
 ### AI-Native Hedge Fund Research System  
 **Python · Feb 2026**
 
