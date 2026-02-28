@@ -1,5 +1,5 @@
-# Hey, I’m Daniel 👋  
-**Information Systems @ University of Florida**
+# Hey, I’m Daniel   
+**Automations @ Coinbase | Information Systems @ University of Florida**
 
 I design and build AI-powered systems for finance, procurement, and executive teams.  
 My work focuses on multi-agent architectures, workflow orchestration, and intelligent automation that replaces manual touchpoints and friction with reliable, auditable systems.
