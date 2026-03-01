@@ -15,7 +15,7 @@ I design and build AI-powered systems and on-chain protocols for finance,
 
 - Multi-agent systems for research, decision-making, and evaluation
 - Finance and procurement workflow automation
-- On-chain protocol design — structured products, risk-aware pricing, EIP-712 signing flows
+- On-chain protocol design: structured products, risk-aware pricing, EIP-712 signing flows
 - Internal dashboards, alerts, and reconciliation pipelines
 
 ---
