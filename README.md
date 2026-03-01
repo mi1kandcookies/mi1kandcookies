@@ -1,8 +1,11 @@
 # Hey, I’m Daniel   
 **Automations @ Coinbase | Information Systems @ University of Florida**
 
-I design and build AI-powered systems for finance, procurement, and executive teams.  
-My work focuses on multi-agent architectures, workflow orchestration, and intelligent automation that replaces manual touchpoints and friction with reliable, auditable systems.
+I design and build AI-powered systems and on-chain protocols for finance,     
+  procurement, and executive teams.                                             
+  My work focuses on multi-agent architectures, workflow orchestration, DeFi
+  protocol engineering, and intelligent automation that replaces manual
+  touchpoints and friction with reliable, auditable systems.
 
 📫 **danielzilper@gmail.com**
 
@@ -10,9 +13,10 @@ My work focuses on multi-agent architectures, workflow orchestration, and intell
 
 ## Core Focus
 
-- Multi-agent systems for research, decision-making, and evaluation  
-- Finance and procurement workflow automation  
-- Internal dashboards, alerts, and reconciliation pipelines  
+- Multi-agent systems for research, decision-making, and evaluation
+- Finance and procurement workflow automation
+- On-chain protocol design — structured products, risk-aware pricing, EIP-712 signing flows
+- Internal dashboards, alerts, and reconciliation pipelines
 
 ---
 
