@@ -47,6 +47,8 @@ Built and documented a correlation-aware on-chain structured products / combo pr
 
 **Impact:** Delivered a transparent, auditable protocol design that reduces correlated exposure risk through mathematically grounded pricing and contract-level guardrails.
 
+---
+
 ### Monad VWAP Execution Engine 
 **TypeScript, Solidity, Next.js, ethers.js, Hardhat · Feb 2026**
 
@@ -60,6 +62,8 @@ Built a full-stack algorithmic trading execution system on Monad Testnet that de
 - Structured documentation and demo workflows for deployment, setup, and judge-ready walkthroughs
 
 **Impact:** Showcased how parallel EVM execution can support multi-order algorithmic trading with higher throughput and lower expected slippage versus sequential execution models.
+
+---
 
 ### AI-Native Hedge Fund Research System  
 **Python · Jan 2026**
