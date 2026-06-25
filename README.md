@@ -8,8 +8,8 @@ I design and build AI-powered systems and on-chain protocols for finance,
   touchpoints and friction with reliable, auditable systems.
 
   Most recently I have been building **always-on agentic operating systems**: 24/7
-  Claude Code runtimes, governed by a tiered authority model and driven by a systemd
-  heartbeat, that run a company's internal operations end to end, deployed both
+  Claude Code runtimes, governed by a tiered authority model and watchdog recovery,
+  that run an organization's internal operations end to end, deployed both
   internally and as a productized, one-command client template.
 
 📫 **danielzilper@gmail.com**
@@ -32,7 +32,7 @@ I design and build AI-powered systems and on-chain protocols for finance,
 | Area | Skills |
 |------|--------|
 | Languages & Foundations | Python, TypeScript, JavaScript, SQL, Bash / Shell, HTML, CSS, Solidity |
-| Agent Operating Systems & Claude Code | Claude Code (hooks, slash commands, subagents, permission matrices, MCP registration), always-on tmux + systemd runtimes, heartbeat and 60-second watchdog patterns, context handoff and restartability, tiered T1/T2/T3 authority models, persona and constitution design, cadence/SOP libraries, fail-open inbox pollers, reusable one-command agent templating |
+| Agent Operating Systems & Claude Code | Claude Code (hooks, slash commands, subagents, permission matrices, MCP registration), always-on tmux + systemd runtimes, heartbeat and watchdog patterns, context handoff and restartability, tiered authority models, persona and constitution design, cadence/SOP libraries, fail-open inbox pollers, reusable one-command agent templating |
 | LLM Systems & Orchestration | Multi-agent design, role isolation, adversarial evaluation, blind scoring, long-context synthesis, structured outputs, Anthropic Claude API, multi-model orchestration (Claude, OpenAI, Gemini, DeepSeek), LangGraph, MCP server development |
 | Slack & Workspace Integrations | Slack app/bot development, Socket Mode, Events API, slash commands, always-on per-message dispatchers, workspace administration, Google Workspace MCP, Gmail / Calendar / Sheets / Drive automation, OAuth 2.0 credential flows, Telegram Bot API |
 | Blockchain / Web3 | EVM smart contracts, Foundry, Hardhat, ethers.js, viem, wagmi, EIP-712 typed data signing, ERC-20/ERC-721/ERC-4626 standards, on-chain risk controls, wallet integration, testnet deployment workflows |
@@ -42,33 +42,34 @@ I design and build AI-powered systems and on-chain protocols for finance,
 
 ## Selected Projects
 
-### SetupAI Zander - Always-On Agentic Operating System
-**Claude Code, Anthropic API, Bash, systemd, tmux, Slack API, Google Workspace MCP · 2026**
+### EA / PM Agent Operating System
+**Claude Code, Anthropic API, MCP, systemd, tmux, Bash, Slack API, Telegram Bot API, Google Workspace · 2026**
 
-Designed and built SetupAI's internal executive agent: an always-on Claude Code REPL running 24/7 in tmux on a dedicated VM, driven by a systemd heartbeat, that runs the company's internal operations and business rhythms. It doubles as the working proof of SetupAI's product, an agentic operating system that installs enterprise structure (cadences, reviews, briefs, research, governance) into a business.
+Designed and built an always-on executive-assistant / project-manager agent operating system: a 24/7 Claude Code runtime that runs an organization's internal operations and business rhythms end to end, and doubles as the working proof of a productized agent-OS offering that installs enterprise structure (cadences, reviews, briefs, research, governance) into a business.
 
-- Engineered a resilient runtime: 10-minute systemd heartbeat, a 60-second watchdog with health checks, and a cycle-50 context handoff so a fresh session resumes cleanly with no dropped obligations
-- Built a tiered **T1/T2/T3 authority model** (autonomous / draft-for-approval / human-only) enforced through a Claude Code permission matrix, with external comms and self-edits gated behind human review
-- Authored a four-document operating constitution (Principles, Privacy, Communication, Reasoning Frameworks) and a cadence library of 11 uniform SOPs mapped to systemd timers
-- Wired **Slack as the primary channel** via an always-on dispatcher and a fail-open inbox poller, plus email through a dedicated Google Workspace MCP credential path
-- Productized the entire spine into a reusable **client template** with a one-command `personalize.sh` installer that stamps agent name, company, principal, and config across the repo and renames every systemd unit
+- Engineered a resilient runtime on a dedicated Linux VM: systemd-driven heartbeat, watchdog health checks with self-recovery, and automatic context handoff so a fresh session resumes cleanly with no dropped obligations
+- Built a **tiered authority model** (autonomous / draft-for-approval / human-only) enforced through a Claude Code permission matrix, gating external communications and self-edits behind human review
+- Authored an operating constitution and reasoning-framework library plus a uniform cadence/SOP library mapped to scheduled timers
+- Operates a file-based task tracker (backlog → ready → in progress → blocked → done) with auto-generated board, blocker, and handoff views across a multi-venture portfolio, routing each item to the correct human or agent owner
+- Generates a daily executive digest spanning multiple Google Workspace inboxes and calendars with triaged top actions, delivered over Telegram; maintains an always-open listening window and fail-open inbox poller for real-time inbound
+- Wired **Slack and email as first-class channels** via an always-on per-message dispatcher and a dedicated Google Workspace MCP credential path
+- Productized the entire spine into a reusable **client template** with a one-command installer that stamps agent identity, company, and config across the repo and provisions its runtime services
 
-**Impact:** Turned a bespoke internal agent into a repeatable, deploy-ready product so every client or venture gets its own named always-on operating agent from the same proven runtime.
+**Impact:** A single agent reliably holding the operational rhythm of a multi-venture enterprise, turned into a repeatable, deploy-ready product so each client or venture gets its own always-on operating agent from the same proven runtime.
 
 ---
 
-### Val - Autonomous EA / PM Agent (Open Aura Enterprise OS)
-**Claude Code, MCP, systemd, Python, Telegram Bot API, Google Workspace · 2026**
+### UF Blockchain Club Agent Operating System
+**Claude Code, MCP, Discord API, Google Workspace, social + event platform APIs · 2026**
 
-Built Val, an autonomous executive-assistant and project-manager agent that operates the Open Aura multi-venture enterprise control center continuously and without supervision.
+Designed a multi-MCP operations agent that runs a university blockchain club's recurring operations, so officers set direction and the agent executes the week-to-week.
 
-- Runs a self-managed heartbeat on systemd timers with lock/state files, watchdog recovery, and session handoff documents that preserve pending obligations across restarts
-- Operates a file-based task tracker (backlog, ready, in progress, blocked, done) with auto-generated board, blocker, and handoff views across a portfolio of ventures
-- Generates a daily executive digest spanning four Google Workspace inboxes plus calendar, with triaged top actions, delivered over Telegram
-- Maintains an always-open listening window and inbox poller for real-time inbound, and persists durable context to disk rather than chat
-- Governed by the same T1/T2/T3 authority model and a non-negotiable execution standard binding every dispatched subagent
+- Architected a multi-service integration spanning Discord community management, Google Workspace (calendar, email, docs, forms), multi-platform social scheduling, event platforms (Lu.ma / Eventbrite), email marketing, and design automation, all through MCP servers
+- Governed by a **tiered approval model** that keeps research, drafting, and internal docs autonomous while gating every external communication, social publish, and expenditure behind human review
+- Designed a credential and security model where all tokens flow through MCP configuration and the agent never stores or requests secrets directly
+- Authored weekly and semester cadence playbooks (meetings, events, recruitment, hackathon coordination, treasury tracking) on a dispatch model that routes club tasks through a central PM/router agent into a shared task tracker
 
-**Impact:** Demonstrated a single agent reliably holding the operational rhythm of an 11-venture portfolio, the internal proof case for productized agent operating systems.
+**Impact:** A repeatable operating agent for a student organization that compresses meeting prep, event logistics, community management, and outreach into a governed, low-cost automation pipeline.
 
 ---
 
@@ -187,4 +188,4 @@ Minimalist resource platform for founders, students, and builders.
 - Built with Next.js and React  
 - Curated collections with filtering and search  
 - Community contribution workflows  
-- Focused on clarity, simplicity, and high-signal resources  
+- Focused on clarity, simplicity, and high-signal resources
