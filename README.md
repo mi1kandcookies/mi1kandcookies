@@ -38,7 +38,7 @@ I design and build AI-powered systems and on-chain protocols for finance,
 | Blockchain / Web3 | EVM smart contracts, Foundry, Hardhat, ethers.js, viem, wagmi, EIP-712 typed data signing, ERC-20/ERC-721/ERC-4626 standards, on-chain risk controls, wallet integration, testnet deployment workflows |
 | Data & Analytics | Pandas, NumPy, SQLite, variance analysis, statistical aggregation, scoring systems, auditability |
 | System & Workflow Architecture | Process Unity, Jira, NetSuite, Salesforce, Snowflake, Looker, Databricks, n8n, agent pipelines, state management, status tracking, database schema design, persistence, automation workflows |
-| Full-Stack & Infrastructure | React, Next.js, Vite, Astro, Tailwind CSS, Alpine.js, GSAP, Flask, PostgreSQL, REST APIs, polling-based architectures, Docker, systemd, tmux, Linux VM operations (Hetzner), Tailscale, Git |
+| Full-Stack & Infrastructure | React, Next.js, Vite, Astro, Tailwind CSS, Alpine.js, GSAP, Flask, PostgreSQL, REST APIs, polling-based architectures, Docker, systemd, tmux, Linux VM operations, Tailscale, Git |
 
 ## Selected Projects
 
